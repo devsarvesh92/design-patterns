@@ -4,7 +4,7 @@ from IChair import IChair
 class BigChair(IChair):
 
     def __repr__(self):
-        return 'BigChair'
+        return 'Big chair'
 
     def display(self) -> str:
         return f'Dimension of {repr(self)} chair are as following{self.dimensions or str(self.default_dimensions)}'
